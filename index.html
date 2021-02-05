@@ -22,6 +22,38 @@
     </xml>
     </noscript>
     <![endif]-->
+    <style type="text/css">
+        @media screen and (max-width: 350px) {
+            .three-col .column {
+                max-width: 100% !important;
+            }
+        }
+        @media screen and (min-width: 351px) and (max-width: 460px) {
+            .three-col .column {
+                max-width: 50% !important;
+            }
+        }
+        @media screen and (max-width: 460px) {
+            .two-col .column,
+            .two-col img {
+                max-width: 100% !important;
+            }
+        }
+        @media screen and (min-width: 461px) {
+            .three-col .column {
+                max-width: 33.3% !important;
+            }
+            .two-col .column {
+                max-width: 50% !important;
+            }
+            .sidebar .small {
+                max-width: 16% !important;
+            }
+            .sidebar .large {
+                max-width: 84% !important;
+            }
+        }
+    </style>
 </head>
 <body style="margin:0;padding:0;word-spacing:normal;background-color:#ffffff;">
     <!--https://webdesign.tutsplus.com/tutorials/creating-a-future-proof-responsive-email-without-media-queries--cms-23919   (5)-->
